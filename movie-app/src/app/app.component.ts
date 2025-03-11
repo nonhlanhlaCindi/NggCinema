@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { MovieListComponent } from './movielist/movielist.component';
+import { MovielistComponent } from './movielist/movielist.component';
 
 @Component({
   standalone: true,
-  imports: [MovieListComponent],
+  imports: [MovielistComponent],
   selector: 'app-root',
   template: `
     <main class="container">
-      <h1>Movie App</h1>
+      <h1>CinemaToNonny</h1>
 <app-movie-list></app-movie-list>
     </main>
  ` ,

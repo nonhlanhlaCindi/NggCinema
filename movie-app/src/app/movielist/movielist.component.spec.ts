@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MovielistComponent } from './movielist.component';
+import { MovielistComponent} from './movielist.component';
 
 describe('MovielistComponent', () => {
   let component: MovielistComponent;

@@ -10,7 +10,7 @@ import { FormsModule } from '@angular/forms';
   templateUrl: './movielist.component.html',
   styleUrls: ['./movielist.component.scss']
 })
-export class MovieListComponent implements OnInit {
+export class MovielistComponent implements OnInit {
   movies: Movie[] = [];
   searchQuery = '';
 
